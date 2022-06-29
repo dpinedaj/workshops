@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": true
+            },
+            "previewLimit": 50,
+            "server": "workshops.postgres.database.azure.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "dbase",
+            "database": "postgres",
+            "username": "sqluser",
+            "password": "PasswordO1."
+        }
+    ]
+}
