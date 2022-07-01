@@ -28,11 +28,11 @@ The implementation consists in just three steps.
 - Install pipenv that is needed to create virtual environments, more information [here](https://pipenv.pypa.io/en/latest/) writting `pip install pipenv` in the shell.
 ### Project Setup
 - Download the repository using git or as a zip file as follows:
+    - Alternative 1: git: if you are familiar with git, just copy the https path here and in powershell run `git clone https://github.com/dpinedaj/workshops.git>` you can read more about git [here](https://git-scm.com/).
+    - Alternative 2: zip files: Just click in `Download ZIP` and then unzip the files.
 
 ![project-setup-1](./readme-resources/project_setup_1.png)
 
-    - Alternative 1: git: if you are familiar with git, just copy the https path here and in powershell run `git clone https://github.com/dpinedaj/workshops.git>` you can read more about git [here](https://git-scm.com/).
-    - Alternative 2: zip files: Just click in `Download ZIP` and then unzip the files.
 - Open a shell in this project root folder and then run:
     - `pipenv shell`
     - `pipenv install`
