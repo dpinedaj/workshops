@@ -30,8 +30,9 @@ The implementation consists in just three steps.
 - Download the repository using git or as a zip file as follows:
 
 ![project-setup-1](./readme-resources/project_setup_1.png)
-    1.  git: if you are familiar with git, just copy the https path here and in powershell run `git clone https://github.com/dpinedaj/workshops.git>` you can read more about git [here](https://git-scm.com/).
-    2. zip files: Just click in `Download ZIP` and then unzip the files.
+
+    - Alternative 1: git: if you are familiar with git, just copy the https path here and in powershell run `git clone https://github.com/dpinedaj/workshops.git>` you can read more about git [here](https://git-scm.com/).
+    - Alternative 2: zip files: Just click in `Download ZIP` and then unzip the files.
 - Open a shell in this project root folder and then run:
     - `pipenv shell`
     - `pipenv install`
