@@ -13,17 +13,22 @@ The implementation consists in just three steps.
 #### Windows setup
 - Download python from https://www.python.org/, is recommended to use one of the most stable versions (3.7.3, 3.8.10, 3.9.5), for this project I suggest 3.9.5 click [here](https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe) to download.
 - Execute the .exe file
-![install-1](./readme-resources/python_install_1.png)
+
+    ![install-1](./readme-resources/python_install_1.png)
 - Check `Add Python 3.9 to PATH` and then click `Install Now`
-- When the installation finishes successfully you should see the following screen:
-![install-2](./readme-resources/python_install_2.png)
+- When the installation finishes successfully you should see the following screen: 
+
+    ![install-2](./readme-resources/python_install_2.png)
 - open a powershell window pressing `Shift + right click` in any folder or the raw desktop.
-![install-3](./readme-resources/python_install_3.png)
+
+    ![install-3](./readme-resources/python_install_3.png)
 - If you write `python -V` in the shell, you should see the following output:
-![install-4](./readme-resources/python_install_4.png)
+
+    ![install-4](./readme-resources/python_install_4.png)
 - Install pipenv that is needed to create virtual environments, more information [here](https://pipenv.pypa.io/en/latest/) writting `pip install pipenv` in the shell.
 ### Project Setup
 - Download the repository using git or as a zip file as follows:
+
 ![project-setup-1](./readme-resources/project_setup_1.png)
     1.  git: if you are familiar with git, just copy the https path here and in powershell run `git clone https://github.com/dpinedaj/workshops.git>` you can read more about git [here](https://git-scm.com/).
     2. zip files: Just click in `Download ZIP` and then unzip the files.
