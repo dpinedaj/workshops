@@ -10,6 +10,7 @@ def fake_dataframe(size: int) -> pd.DataFrame:
           'text': faker.sentence(),
           'name': faker.name(),
           'address': faker.address(),
-          'job': faker.job()
+          'job': faker.job(),
+          "email": faker.email(),
           } for _ in range(size)]
     )

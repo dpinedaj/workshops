@@ -40,12 +40,12 @@ The implementation consists in just three steps.
 - Open 3 shells in this project root folder:
     - Shell 1:
         - run: `pipenv shell`
-        - run: `python scripts/file_maker.py`
+        - run: `python file_maker.py`
     - Shell 2:
         - run: `pipenv shell`
-        - run: `python scripts/publisher.py`
+        - run: `python publisher.py`
     - Shell 3:
         - run: `pipenv shell`
-        - run: `python scripts/worker.py`
+        - run: `python worker.py`
 
     If you want to add some extra workers, you can run multiple times the steps in Shell 3 (in new shells) to set up new workers.
