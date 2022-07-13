@@ -12,7 +12,7 @@ class TaskManager(Base):
 
     __tablename__ = 'tasks_manager'
 
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer)
     file_name = Column(String)
     fails = Column(Boolean)
     processing = Column(Boolean)
