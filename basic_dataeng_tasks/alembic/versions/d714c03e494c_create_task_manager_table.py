@@ -19,7 +19,7 @@ depends_on = None
 def upgrade():
     op.create_table(
         'tasks_manager',
-        sa.Column('id', sa.Integer, primary_key=True),
+        sa.Column('id', sa.Integer),
         sa.Column('file_name', sa.String),
         sa.Column('fails', sa.Boolean),
         sa.Column('processing', sa.Boolean),
