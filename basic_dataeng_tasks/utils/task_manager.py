@@ -1,9 +1,11 @@
 
 from utils.sql import session
 from sqlalchemy import Column
-from sqlalchemy import Integer, String, Boolean
+from sqlalchemy import String, Boolean
 from sqlalchemy.orm.exc import NoResultFound
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.dialects.postgresql import UUID
+import uuid
 
 Base = declarative_base()
 
@@ -12,7 +14,7 @@ class TaskManager(Base):
 
     __tablename__ = 'tasks_manager'
 
-    id = Column(Integer)
+    id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     file_name = Column(String)
     fails = Column(Boolean)
     processing = Column(Boolean)

@@ -29,7 +29,6 @@ class Publisher:
         _id = file_name.split(".")[0]
         if _id not in self.done_list:
             task_manager = TaskManager(
-                id=_id,
                 file_name=file_name,
                 fails=False,
                 processing=False,

@@ -7,7 +7,7 @@ Create Date: 2022-06-29 11:47:39.064033
 """
 from alembic import op
 import sqlalchemy as sa
-
+from sqlalchemy.dialects.postgresql import UUID
 
 # revision identifiers, used by Alembic.
 revision = 'd714c03e494c'
@@ -19,7 +19,7 @@ depends_on = None
 def upgrade():
     op.create_table(
         'tasks_manager',
-        sa.Column('id', sa.Integer),
+        sa.Column("id", UUID(as_uuid=True), primary_key=True),
         sa.Column('file_name', sa.String),
         sa.Column('fails', sa.Boolean),
         sa.Column('processing', sa.Boolean),
